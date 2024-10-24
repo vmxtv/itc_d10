@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Views SVG Animation module file.
+ */
+
+/**
+ * @file
+ * Module file for the views_svg_animation module.
+ */
+
+/**
+ * Implements template_preprocess_HOOK().
+ */
+function template_preprocess_views_view_svg_animation(array &$variables): void {
+  template_preprocess_views_view_table($variables);
+
+  /** @var \Drupal\views_svg_animation\Plugin\views\style\SvgAnimation $handler */
+  $handler = $variables['view']->style_plugin;
+  $handler->getRowsAttributes($variables);
+  $variables['#attached']['library'][] = 'views_svg_animation/generic';
+  $variables['#attached']['drupalSettings']['svg_animation'] = $handler->getDrupalSettings();
+}

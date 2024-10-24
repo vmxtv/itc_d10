@@ -1,0 +1,46 @@
+uuid: a31a0265-f7fd-469a-a945-4dc106242a2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_itc_values
+    - node.type.ict_page
+    - paragraphs.paragraphs_type.values
+  module:
+    - entity_reference_revisions
+id: node.ict_page.field_itc_values
+field_name: field_itc_values
+entity_type: node
+bundle: ict_page
+label: Values
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      values: values
+    negate: 0
+    target_bundles_drag_drop:
+      highlight:
+        weight: 8
+        enabled: false
+      pillar_item:
+        weight: 9
+        enabled: false
+      pillars:
+        weight: 10
+        enabled: false
+      text:
+        weight: 11
+        enabled: false
+      value_item:
+        weight: 12
+        enabled: false
+      values:
+        weight: 7
+        enabled: true
+field_type: entity_reference_revisions

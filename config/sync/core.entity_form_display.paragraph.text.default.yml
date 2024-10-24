@@ -1,0 +1,39 @@
+uuid: 4d7bf38f-4a79-498c-ac74-f89e84a9d2e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_background_color
+    - field.field.paragraph.text.field_description
+    - field.field.paragraph.text.field_title
+    - paragraphs.paragraphs_type.text
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_background_color:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_description:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

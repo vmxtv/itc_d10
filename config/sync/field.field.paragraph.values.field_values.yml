@@ -1,0 +1,46 @@
+uuid: 54d8ef5f-aca1-45a9-922e-ac4028230810
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_values
+    - paragraphs.paragraphs_type.value_item
+    - paragraphs.paragraphs_type.values
+  module:
+    - entity_reference_revisions
+id: paragraph.values.field_values
+field_name: field_values
+entity_type: paragraph
+bundle: values
+label: Values
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      value_item: value_item
+    negate: 0
+    target_bundles_drag_drop:
+      highlight:
+        weight: 8
+        enabled: false
+      pillar_item:
+        weight: 9
+        enabled: false
+      pillars:
+        weight: 10
+        enabled: false
+      text:
+        weight: 11
+        enabled: false
+      value_item:
+        weight: 12
+        enabled: true
+      values:
+        weight: 7
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+uuid: 41b82287-f4b5-4207-8f00-6ad1bd1fbece
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ict_page
+id: node.ict_page.status
+field_name: status
+entity_type: node
+bundle: ict_page
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

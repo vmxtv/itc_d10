@@ -1,0 +1,10 @@
+uuid: bfbc1e12-94e5-4afd-9ab9-7ca9f593400e
+langcode: en
+status: true
+dependencies: {  }
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: 'ICT Textblock'
+behavior_plugins: {  }

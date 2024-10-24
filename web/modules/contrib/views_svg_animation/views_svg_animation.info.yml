@@ -1,0 +1,13 @@
+name: Views SVG Animation
+type: module
+description: Provides a views style that extends the table style and offers interactive animation with one or more SVG files.
+package: Views
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:media
+  - drupal:views
+
+# Information added by Drupal.org packaging script on 2023-12-13
+version: '1.0.0'
+project: 'views_svg_animation'
+datestamp: 1702474641

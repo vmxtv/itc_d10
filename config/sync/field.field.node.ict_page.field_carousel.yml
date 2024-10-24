@@ -1,0 +1,52 @@
+uuid: 406478d1-90ea-4331-83ae-60aa55017e50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_carousel
+    - node.type.ict_page
+    - paragraphs.paragraphs_type.carousel
+  module:
+    - entity_reference_revisions
+id: node.ict_page.field_carousel
+field_name: field_carousel
+entity_type: node
+bundle: ict_page
+label: Carousel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      carousel: carousel
+    negate: 0
+    target_bundles_drag_drop:
+      carousel:
+        weight: 9
+        enabled: true
+      carousel_item:
+        weight: 10
+        enabled: false
+      highlight:
+        weight: 11
+        enabled: false
+      pillar_item:
+        weight: 12
+        enabled: false
+      pillars:
+        weight: 13
+        enabled: false
+      text:
+        weight: 14
+        enabled: false
+      value_item:
+        weight: 15
+        enabled: false
+      values:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

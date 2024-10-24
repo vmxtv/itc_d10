@@ -1,0 +1,10 @@
+generic:
+  version: VERSION
+  css:
+    component:
+      css/views_svg_animation.css: {}
+  js:
+    js/views_svg_animation.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

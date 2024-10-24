@@ -1,0 +1,10 @@
+uuid: d228f3ee-cec8-43ec-b387-7c8fbe70538e
+langcode: en
+status: true
+dependencies: {  }
+id: values
+label: Values
+icon_uuid: null
+icon_default: null
+description: 'ITC Value'
+behavior_plugins: {  }

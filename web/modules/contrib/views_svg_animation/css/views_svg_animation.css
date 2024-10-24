@@ -1,0 +1,11 @@
+.views-svg-animation .svg-wrapper {
+  display: none;
+}
+.views-svg-animation .svg-wrapper > div {
+  display: none;
+}
+.views-svg-animation .svg-wrapper > div svg .svg-animation-show,
+.views-svg-animation .svg-wrapper > div svg .svg-animation-show * {
+  display: block;
+  fill-opacity: 1;
+}

@@ -1,0 +1,18 @@
+uuid: e53c69fe-e9b1-4283-9e0a-832cc652f2e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ict_page
+id: node.ict_page.created
+field_name: created
+entity_type: node
+bundle: ict_page
+label: 'Authored on'
+description: 'The date and time that the content was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

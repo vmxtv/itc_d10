@@ -1,0 +1,10 @@
+uuid: a7a7c658-b1ea-4b6c-a0ae-5a302a505ef1
+langcode: en
+status: true
+dependencies: {  }
+id: pillar_item
+label: 'Pillar Item'
+icon_uuid: null
+icon_default: null
+description: 'ICT Pillar Item'
+behavior_plugins: {  }

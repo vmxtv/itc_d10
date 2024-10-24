@@ -1,0 +1,31 @@
+uuid: eb4f53e3-b7fd-4ae4-8149-2970eb6dd40f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ict_page.field_carousel
+    - field.field.node.ict_page.field_itc_pillars
+    - field.field.node.ict_page.field_itc_values
+    - field.field.node.ict_page.field_meta_tags
+    - field.field.node.ict_page.field_text
+    - node.type.ict_page
+  module:
+    - user
+id: node.ict_page.teaser
+targetEntityType: node
+bundle: ict_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_carousel: true
+  field_itc_pillars: true
+  field_itc_values: true
+  field_meta_tags: true
+  field_text: true
+  langcode: true

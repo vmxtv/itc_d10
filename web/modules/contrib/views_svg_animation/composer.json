@@ -1,0 +1,17 @@
+{
+  "name": "drupal/views_svg_animation",
+  "type": "drupal-module",
+  "description": "Provides a views style that extends the table style and offers interactive animation with one or more SVG files.",
+  "keywords": [
+    "Drupal"
+  ],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/views_svg_animation",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/views_svg_animation",
+    "source": "https://git.drupalcode.org/views_svg_animation"
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 39402a96-8cb2-4e3c-8979-eef81990fd31
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ict_page
+id: node.ict_page.sticky
+field_name: sticky
+entity_type: node
+bundle: ict_page
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

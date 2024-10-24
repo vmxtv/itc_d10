@@ -1,0 +1,41 @@
+uuid: e129a9e1-90ff-498f-a76a-4f11902e5088
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.values.field_description
+    - field.field.paragraph.values.field_title
+    - field.field.paragraph.values.field_values
+    - paragraphs.paragraphs_type.values
+  module:
+    - entity_reference_revisions
+id: paragraph.values.default
+targetEntityType: paragraph
+bundle: values
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_values:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

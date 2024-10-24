@@ -1,0 +1,29 @@
+uuid: 72004bcc-b9d2-4a4e-9803-fed182cb605e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_animation
+    - media.type.image
+    - paragraphs.paragraphs_type.pillar_item
+id: paragraph.pillar_item.field_animation
+field_name: field_animation
+entity_type: paragraph
+bundle: pillar_item
+label: Animation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

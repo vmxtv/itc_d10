@@ -1,0 +1,33 @@
+uuid: a5c354ff-f929-40d4-bef5-d4d02d1334f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pillar_item.field_animation
+    - field.field.paragraph.pillar_item.field_title
+    - paragraphs.paragraphs_type.pillar_item
+  module:
+    - media_library
+id: paragraph.pillar_item.default
+targetEntityType: paragraph
+bundle: pillar_item
+mode: default
+content:
+  field_animation:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

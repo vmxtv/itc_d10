@@ -1,0 +1,28 @@
+uuid: 53c24005-95a0-4e31-aaf4-d4a49ea8895d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_highlight_description
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - paragraphs.paragraphs_type.highlight
+  module:
+    - text
+id: paragraph.highlight.field_highlight_description
+field_name: field_highlight_description
+entity_type: paragraph
+bundle: highlight
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - restricted_html
+    - full_html
+field_type: text_long

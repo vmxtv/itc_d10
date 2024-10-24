@@ -1,0 +1,39 @@
+uuid: 8599edc8-a84b-46ec-aef2-5835c8c0b72e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_background_color
+    - field.field.paragraph.text.field_description
+    - field.field.paragraph.text.field_title
+    - paragraphs.paragraphs_type.text
+  module:
+    - options
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_background_color:
+    type: list_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

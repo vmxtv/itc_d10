@@ -1,0 +1,39 @@
+uuid: 07445288-0edf-45a8-bc19-b65da8e8dfcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.value_item.field_description
+    - field.field.paragraph.value_item.field_image
+    - field.field.paragraph.value_item.field_title
+    - paragraphs.paragraphs_type.value_item
+id: paragraph.value_item.default
+targetEntityType: paragraph
+bundle: value_item
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

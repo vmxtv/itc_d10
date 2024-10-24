@@ -1,0 +1,10 @@
+uuid: 12ef38fd-cc12-4515-bbca-10c74b8ad015
+langcode: en
+status: true
+dependencies: {  }
+id: carousel_item
+label: 'Carousel Item'
+icon_uuid: null
+icon_default: null
+description: 'ITC Carousel Item'
+behavior_plugins: {  }

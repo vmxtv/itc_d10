@@ -1,0 +1,10 @@
+uuid: ddda38f0-c400-4315-8ce7-c8ef1407a8cb
+langcode: en
+status: true
+dependencies: {  }
+id: highlight
+label: Highlight
+icon_uuid: null
+icon_default: null
+description: 'ITC Highlight'
+behavior_plugins: {  }

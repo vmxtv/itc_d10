@@ -1,0 +1,18 @@
+uuid: ff491727-1113-449c-921b-26f7fc52fc47
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pillars
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.pillars
+target_entity_type_id: paragraph
+target_bundle: pillars
+default_langcode: site_default
+language_alterable: true
