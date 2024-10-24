@@ -8,3 +8,14 @@ generic:
   dependencies:
     - core/jquery
     - core/drupal
+    - views_svg_animation/dompurify
+
+dompurify:
+  remote: https://github.com/cure53/DOMPurify
+  version: VERSION
+  license:
+    name: MPL
+    url: https://github.com/cure53/DOMPurify/blob/main/LICENSE
+    gpl-compatible: false
+  js:
+    /libraries/dompurify/dist/purify.min.js: { }

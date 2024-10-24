@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6a3f2fa61f7b55e0815bb415fb6ae1a",
+    "content-hash": "00e614923a1616ff30c23894dff863d6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1918,6 +1918,50 @@
             }
         },
         {
+            "name": "drupal/jsonapi_role_access",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/jsonapi_role_access.git",
+                "reference": "1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_role_access-1.1.1.zip",
+                "reference": "1.1.1",
+                "shasum": "c7229778011099724a3746b0ee69112c754f53f7"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.1",
+                    "datestamp": "1684235676",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "arshadkhan35",
+                    "homepage": "https://www.drupal.org/user/3341832"
+                }
+            ],
+            "description": "Provides feature to give or restrict access to JSON:API resources.",
+            "homepage": "https://www.drupal.org/project/jsonapi_role_access",
+            "support": {
+                "source": "https://git.drupalcode.org/project/jsonapi_role_access"
+            }
+        },
+        {
             "name": "drupal/metatag",
             "version": "2.0.2",
             "source": {
@@ -2542,17 +2586,17 @@
         },
         {
             "name": "drupal/views_svg_animation",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_svg_animation.git",
-                "reference": "1.0.0"
+                "reference": "1.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_svg_animation-1.0.0.zip",
-                "reference": "1.0.0",
-                "shasum": "94d70ffeb4623d20df9ce5c98b349782ca0357a1"
+                "url": "https://ftp.drupal.org/files/projects/views_svg_animation-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "bdff1ed79a7c8af7fa8a4748fe501aabd2018c02"
             },
             "require": {
                 "drupal/core": "^10 || ^11",
@@ -2561,8 +2605,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0",
-                    "datestamp": "1702474640",
+                    "version": "1.0.1",
+                    "datestamp": "1729702579",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3585,16 +3629,16 @@
         },
         {
             "name": "league/container",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
-                "reference": "ff346319ca1ff0e78277dc2311a42107cc1aab88"
+                "reference": "72f9bebe7bd623007782a40f5ec305661ab706d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/container/zipball/ff346319ca1ff0e78277dc2311a42107cc1aab88",
-                "reference": "ff346319ca1ff0e78277dc2311a42107cc1aab88",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/72f9bebe7bd623007782a40f5ec305661ab706d8",
+                "reference": "72f9bebe7bd623007782a40f5ec305661ab706d8",
                 "shasum": ""
             },
             "require": {
@@ -3655,7 +3699,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/container/issues",
-                "source": "https://github.com/thephpleague/container/tree/4.2.2"
+                "source": "https://github.com/thephpleague/container/tree/4.2.3"
             },
             "funding": [
                 {
@@ -3663,7 +3707,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-13T13:12:53+00:00"
+            "time": "2024-10-23T12:06:58+00:00"
         },
         {
             "name": "league/event",
@@ -8005,10 +8049,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

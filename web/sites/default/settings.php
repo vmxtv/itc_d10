@@ -814,9 +814,9 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
    include $app_root . '/' . $site_path . '/settings.local.php';
 }
 $databases['default']['default'] = array (
-  'database' => 'default',
-  'username' => 'user',
-  'password' => 'user',
+  'database' => 'itcdemo',
+  'username' => 'admin',
+  'password' => 'secret',
   'prefix' => '',
   'host' => 'db',
   'port' => '3306',

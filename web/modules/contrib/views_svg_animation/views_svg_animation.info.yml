@@ -7,7 +7,7 @@ dependencies:
   - drupal:media
   - drupal:views
 
-# Information added by Drupal.org packaging script on 2023-12-13
-version: '1.0.0'
+# Information added by Drupal.org packaging script on 2024-10-23
+version: '1.0.1'
 project: 'views_svg_animation'
-datestamp: 1702474641
+datestamp: 1729679912

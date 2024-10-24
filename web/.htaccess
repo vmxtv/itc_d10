@@ -181,6 +181,8 @@ AddEncoding gzip svgz
   # https://httpd.apache.org/docs/current/mod/mod_headers.html.
   Header onsuccess unset X-Content-Type-Options
   Header always set X-Content-Type-Options nosniff
+  Header add Access-Control-Allow-Origin "*"
+  Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
   # Disable Proxy header, since it's an attack vector.
   RequestHeader unset Proxy
 </IfModule>

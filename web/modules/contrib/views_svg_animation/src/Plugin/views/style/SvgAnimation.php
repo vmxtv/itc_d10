@@ -159,7 +159,7 @@ class SvgAnimation extends Table {
       '#type' => 'textarea',
       '#title' => $this->t('SVG file mapping'),
       '#default_value' => $map,
-      '#description' => $this->t('One line per SVG file, mapping the field value to the SVG file ID. Syntax: "fieldvalue|fileid"'),
+      '#description' => $this->t('One line per SVG file, mapping the field value to the SVG file ID. Syntax: "field value|field"'),
       '#states' => [
         'invisible' => [
           'select[name="style_options[svg_field_object]"]' => ['value' => ''],

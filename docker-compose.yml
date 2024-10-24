@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  php:
+    build: .
+    container_name: itc.web
+    restart: on-failure
+    volumes:
+      - ./:/var/www
+      - ./web:/var/www/html
+    ports:
+      - 8080:80
+    networks:
+      - default
+
+  db:
+    image: mariadb:10.5
+    restart: on-failure
+    platform: linux/amd64
+    container_name: itc.db
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+      MYSQL_DATABASE: 'itcdemo'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'secret'
+    volumes:
+      - ./db:/var/lib/mysql
+    networks:
+      - default
+  adminer:
+    image: adminer
+    restart: on-failure
+    ports:
+      - 8081:8080
+    networks:
+      - default
