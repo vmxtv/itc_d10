@@ -15,7 +15,7 @@ mode: default
 content:
   field_animation:
     type: media_library_widget
-    weight: 1
+    weight: 11
     region: content
     settings:
       media_types: {  }
@@ -27,6 +27,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true

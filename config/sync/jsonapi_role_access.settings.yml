@@ -1,0 +1,6 @@
+_core:
+  default_config_hash: hO8iwMW7BHFHqHZCQTEy2zm_9JILgQy4Bz2ghGnw2xw
+negate: '1'
+roles:
+  authenticated: authenticated
+  anonymous: 0

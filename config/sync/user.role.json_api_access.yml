@@ -1,0 +1,12 @@
+uuid: 01776dc8-3f57-4a5e-aa79-8b1be39275d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - jsonapi_role_access
+id: json_api_access
+label: 'JSON API Access'
+weight: 4
+is_admin: null
+permissions:
+  - 'jsonapi role access'

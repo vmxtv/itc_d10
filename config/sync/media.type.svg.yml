@@ -1,0 +1,15 @@
+uuid: 8e5db4c4-e52f-415c-8c90-a2ee59b0c2b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - svg_image_field
+id: svg
+label: Svg
+description: ''
+source: svg
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_svg
+field_map: {  }

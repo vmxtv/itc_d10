@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.ict_page.field_carousel
+    - field.field.node.ict_page.field_highlight
     - field.field.node.ict_page.field_itc_pillars
     - field.field.node.ict_page.field_itc_values
     - field.field.node.ict_page.field_meta_tags
@@ -26,6 +27,15 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 104
+    region: content
+  field_highlight:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_itc_pillars:
     type: entity_reference_revisions_entity_view

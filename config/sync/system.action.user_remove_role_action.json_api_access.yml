@@ -1,0 +1,14 @@
+uuid: 4af22b77-7773-44ce-a5cc-4c3c085db35b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.json_api_access
+  module:
+    - user
+id: user_remove_role_action.json_api_access
+label: 'Remove the JSON API Access role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: json_api_access

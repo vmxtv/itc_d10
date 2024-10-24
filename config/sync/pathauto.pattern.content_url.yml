@@ -1,0 +1,36 @@
+uuid: 37c77b44-7915-4b6c-8fd7-4afd26632c5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: content_url
+label: 'Content URL'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  bd50e0dd-7476-4918-857d-ae50b5a11800:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: bd50e0dd-7476-4918-857d-ae50b5a11800
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      ict_page: ict_page
+      page: page
+  dcef6408-795c-4e87-bb39-5d7e5c98a5ab:
+    id: language
+    negate: false
+    uuid: dcef6408-795c-4e87-bb39-5d7e5c98a5ab
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+      zh-hans: zh-hans
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

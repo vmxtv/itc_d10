@@ -62,13 +62,11 @@
         },
         "drupal-scaffold": {
             "locations": {
-                "web-root": "web/"
-            },
-            "file-mapping": {
-                "[web-root]/.htaccess": false
+                "web-root": "./web"
             }
         },
         "installer-paths": {
+            
             "web/core": [
                 "type:drupal-core"
             ],

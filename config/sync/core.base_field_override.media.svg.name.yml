@@ -1,0 +1,20 @@
+uuid: 74565c1f-7928-4c96-91be-7771cbe0a606
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+id: media.svg.name
+field_name: name
+entity_type: media
+bundle: svg
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

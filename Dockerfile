@@ -28,7 +28,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN a2enmod rewrite
 RUN a2enmod headers
 
-RUN cd /etc/apache2/mods-enabled && ln -s /etc/apache2/mods-available/headers.load headers.load
+# RUN cd /etc/apache2/mods-enabled && ln -s /etc/apache2/mods-available/headers.load headers.load
 
 RUN service apache2 restart
 

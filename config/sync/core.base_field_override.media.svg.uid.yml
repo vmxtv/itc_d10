@@ -1,0 +1,20 @@
+uuid: 3727f2ea-e915-4fe4-8d31-ec90fb591360
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.svg
+id: media.svg.uid
+field_name: uid
+entity_type: media
+bundle: svg
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

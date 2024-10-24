@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.ict_page.field_carousel
+    - field.field.node.ict_page.field_highlight
     - field.field.node.ict_page.field_itc_pillars
     - field.field.node.ict_page.field_itc_values
     - field.field.node.ict_page.field_meta_tags
@@ -24,6 +25,7 @@ content:
     region: content
 hidden:
   field_carousel: true
+  field_highlight: true
   field_itc_pillars: true
   field_itc_values: true
   field_meta_tags: true

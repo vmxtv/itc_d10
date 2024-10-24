@@ -18,13 +18,13 @@ mode: default
 content:
   field_button:
     type: link
-    label: above
+    label: visually_hidden
     settings:
       trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
     third_party_settings: {  }
     weight: 3
     region: content

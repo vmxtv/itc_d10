@@ -1,0 +1,52 @@
+uuid: 13182c45-1b40-4fea-b1fc-0da76badaec7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_highlight
+    - node.type.ict_page
+    - paragraphs.paragraphs_type.highlight
+  module:
+    - entity_reference_revisions
+id: node.ict_page.field_highlight
+field_name: field_highlight
+entity_type: node
+bundle: ict_page
+label: Highlight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      highlight: highlight
+    negate: 0
+    target_bundles_drag_drop:
+      carousel:
+        weight: 9
+        enabled: false
+      carousel_item:
+        weight: 10
+        enabled: false
+      highlight:
+        weight: 11
+        enabled: true
+      pillar_item:
+        weight: 12
+        enabled: false
+      pillars:
+        weight: 13
+        enabled: false
+      text:
+        weight: 14
+        enabled: false
+      value_item:
+        weight: 15
+        enabled: false
+      values:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

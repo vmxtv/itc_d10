@@ -10,10 +10,12 @@ module:
   comment: 0
   config: 0
   config_translation: 0
+  consumers: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
+  decoupled_router: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -25,6 +27,8 @@ module:
   history: 0
   image: 0
   jsonapi: 0
+  jsonapi_extras: 0
+  jsonapi_role_access: 0
   language: 0
   link: 0
   locale: 0
@@ -34,6 +38,9 @@ module:
   menu_ui: 0
   metatag: 0
   mysql: 0
+  next: 0
+  next_extras: 0
+  next_jsonapi: 0
   node: 0
   options: 0
   page_cache: 0
@@ -43,7 +50,10 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  simple_oauth: 0
+  subrequests: 0
   svg_image: 0
+  svg_image_field: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -52,7 +62,9 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_svg_animation: 0
   views_ui: 0
+  pathauto: 1
   content_translation: 10
   views: 10
   paragraphs: 11

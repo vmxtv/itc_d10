@@ -1,10 +1,10 @@
-uuid: 72004bcc-b9d2-4a4e-9803-fed182cb605e
+uuid: d9d0608d-c049-45d1-a2c3-a610489879de
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_animation
-    - media.type.image
+    - media.type.svg
     - paragraphs.paragraphs_type.pillar_item
 id: paragraph.pillar_item.field_animation
 field_name: field_animation
@@ -20,7 +20,7 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      image: image
+      svg: svg
     sort:
       field: _none
       direction: ASC

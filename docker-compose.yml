@@ -7,12 +7,11 @@ services:
     restart: on-failure
     volumes:
       - ./:/var/www
-      - ./web:/var/www/html
     ports:
       - 8080:80
     networks:
       - default
-
+      
   db:
     image: mariadb:10.5
     restart: on-failure
